@@ -1,0 +1,142 @@
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('./images/pattern.svg');
+  background-size: 100%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: white;
+}
+
+input {
+  height: 1.75rem;
+}
+
+.centered {
+  margin-top: 10rem;
+}
+.button {
+  color: black;
+  background: limegreen;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.25rem;
+  width: 7rem;
+  display: block;
+  text-align: center;
+  padding: 9px 0;
+  margin: 10px auto;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+.loc-title {
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+li {
+  list-style-type: none;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+}
+
+.weather-icon {
+  height: 6rem;
+  padding-bottom: 5px;
+}
+
+.weather-date {
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+.weather-item {
+  padding: 1.5rem;
+}
+
+.detail-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.detail-icon {
+  height: 15rem;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.detail-date {
+  font-size: 1.9rem;
+  font-weight: lighter;
+}
+
+.detail-item {
+  padding: 30px;
+}
+.nav-button {
+  color: black;
+  background: limegreen;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  width: 5.25rem;
+  height: 1.25rem;
+  display: block;
+  text-align: center;
+  padding: 11px 0;
+  margin-right: .5rem;
+}
+
+.nav-form {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  background-color: #fc6c43;
+}
+.nav-text {
+  text-align: left;
+  margin: 15px;
+  color: white;
+}
+.loc-input {
+  width: 10rem;
+  height: 2.25rem;
+  font-size: 25px;
+}
+ .nav-input {
+   width: 7rem;
+   font-size: 1rem;
+   padding: 5px;
+   margin-right: 5px;
+ }
