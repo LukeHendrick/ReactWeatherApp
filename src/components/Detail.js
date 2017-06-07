@@ -5,8 +5,7 @@ var Loading = require('./Loading.js');
 var moment = require('moment');
 
 function DetailResults (props) {
-  var day = props.weather.list[props.index]
-  console.log(day);
+  var day = props.weather.list[props.index];
   return (
     <ul className='detail-list'>
           <li key={props.index + 1} className="detail-item">

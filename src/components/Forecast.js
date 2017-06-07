@@ -8,7 +8,6 @@ var Link = require('react-router-dom').Link
 function WeatherGrid (props) {
   let match = props.match
   let loc = props.loc
-  console.log(props.weather);
   return (
     <ul className='weather-list'>
       {props.weather.map(function (day, index) {
